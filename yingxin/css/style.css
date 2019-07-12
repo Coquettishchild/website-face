@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100%;
+    min-width: 1200px;
+}
 .top{
     display: block;
     position: relative;
@@ -389,8 +393,8 @@
 }
 .copy_right{
     display: inline-block;
-    width: 50%;
-    margin-left: 8%;
+    width: 56%;
+    margin-left: 2%;
     vertical-align: top;
 
 }
@@ -405,10 +409,17 @@
 .copy_left>span:nth-child(2){
     padding-bottom: 5px;
     margin-left: 10px;
+    width: 120px;
 }
 .copy_left>span>span{
     display: block;
     color: white;
+    width: 300px;
+}
+.copy_right>span>span{
+    display: block;
+    color: white;
+    width: 360px;
 }
 .copy_right>span{
     display: inline-block;
@@ -423,6 +434,7 @@
 }
 .copy_right>span:nth-child(2){
     padding-bottom: 30px;
+    width: 300px;
 }
 .fix{
     position: fixed;
