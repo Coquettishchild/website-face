@@ -6,7 +6,6 @@ body{
     width: 100%;
     min-width: 1200px;
     background-color: rgb(245,245,243);
-    overflow: hidden;
 }
 .top{
     position: relative;
